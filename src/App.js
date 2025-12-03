@@ -4,6 +4,7 @@ import Nav from "./component/Nav";
 import Home from "./component/Home";
 import Form from "./component/Form";
 import Task011225 from "./component/Task011225";
+import Counter from "./component/Task021225/Counter";
 
 function App() {
   const [dark, setDark] = useState(false);
@@ -19,8 +20,9 @@ function App() {
         transition: "0.3s",
       }}
     >
-
-      <Task011225 />
+      <Counter />
+{/* 
+      <Task011225 /> */}
 
       {/* <Router>
         <Nav dark={dark} toggleMode={toggleMode} />
